@@ -64,7 +64,7 @@ END record_shortfall;
 --         DBMS_OUTPUT.PUT_LINE('Total shortfall for investor ' || investor_id || ' this month: ' || NVL(v_total_shortfall, 0));
 --     END;
 
-    -- Using a cursor to fetch and display all shortfalls for the investor
-    FOR rec IN c_investors LOOP
-        DBMS_OUTPUT.PUT_LINE('Investor ID: ' || rec.investor_id);
-    END LOOP;
+    -- -- Using a cursor to fetch and display all shortfalls for the investor
+    -- FOR rec IN c_investors LOOP
+    --     DBMS_OUTPUT.PUT_LINE('Investor ID: ' || rec.investor_id);
+    -- END LOOP;
